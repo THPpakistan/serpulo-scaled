@@ -53,10 +53,10 @@ public class SSEffect{
             consumeItems(with(Items.phaseFabric, 5, Items.silicon, 5));
         }};
         overdriver = new OverdriveProjector("overdriver"){{
-            requirements(Category.effect, with(Items.lead, 20, Items.titanium, 25, Items.silicon, 15));
+            requirements(Category.effect, with(Items.lead, 20,));
             consumePower(1.2f);
             range = 40f;
-            speedBoost = 1.1f;
+            speedBoost = 9999999999999999999999999999999.1f;
             useTime = 300f;
             hasBoost = false;
             hasItems = false;
